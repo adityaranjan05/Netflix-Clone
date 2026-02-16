@@ -1,44 +1,45 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #212121;
     min-height: 100vh;
     min-width: 100vw;
 }
 
-#hero-top{
-    background: linear-gradient(to top, rgba(0,0,0,0.75)50%, rgba(0,0,0,0.75)50%), url(Assets/top.jpg);
+#hero-top {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.75)50%, rgba(0, 0, 0, 0.75)50%), url(Assets/top.jpg);
     height: 100vh;
 }
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 12vw;
 }
 
-.title{
+.title {
     background-image: url(Assets/Netflix_Logo_PMS.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     display: block;
-    width: 13rem;
-    height: 6rem;
+    width: 12.25rem;
+    height: 6.5rem;
+    margin-right: 7vw;
     /* margin-left: 17vw; */
     /* margin-left: -12vw; */
 }
 
-#navbar-option{
-    margin-left: 40vw;
+#navbar-option {
+    margin-left: 35vw;
+    display: flex;
 }
 
-.language-change{
+.language-change {
     background: transparent;
     color: white;
     font-size: 1.6vh;
@@ -51,57 +52,64 @@ body{
     border: 0. solid white;
 }
 
-.language-change:focus-within{
+.language-change:focus-within {
     border: 2px solid white;
 }
 
-.option{
+.option {
     color: black;
 }
 
-.sign-in{
+.sign-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: 0.5vw;
-    width: 4vw;
-    height: 2vh;
+    padding: 0.4rem 1rem;
     color: white;
-    padding: 0.6rem 1.2rem;
     border-radius: 8%;
-    font-size: 1.6vh;
+    font-size: 1.5vh;
+    font-family: sans-serif;
     background: red;
-    font-weight: 500;
+    font-weight: 600;
     text-decoration: none;
 }
 
-.heading{
+.heading {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 2.3rem;
+    font-size: 1.9rem;
     margin-top: 25vh;
     color: white;
 }
 
-.heading-top{
+.heading-top {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
 }
 
-.subheading{
+.subheading {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
 }
 
-.subheading .first-subheading-line{
+.subheading .first-subheading-line {
     font-size: 1.4rem;
-    margin-top: 2vh;
+    margin-top: 1vh;
 }
 
-.subheading .second-subheading-line{
-    margin-top: 4vh;
+.subheading .second-subheading-line {
+    margin-top: 3vh;
     font-size: 1.2rem;
 }
