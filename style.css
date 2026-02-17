@@ -11,14 +11,18 @@ body {
 }
 
 #hero-top {
+    display: flex;
+    flex-direction: column;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.75)50%, rgba(0, 0, 0, 0.75)50%), url(Assets/top.jpg);
     height: 100vh;
 }
 
 .navbar {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    /* justify-content: center;
     align-items: center;
+    margin-top: -1vh; */
 }
 
 .title {
@@ -27,29 +31,35 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     display: block;
-    width: 12.25rem;
-    height: 6.5rem;
-    margin-right: 7vw;
-    /* margin-left: 17vw; */
-    /* margin-left: -12vw; */
+    width: 12rem;
+    height: 5.5rem;
+    margin-left: 17vw;
+    /* position: relative;
+    margin-left: -3vw; */
 }
 
 #navbar-option {
-    margin-left: 35vw;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 43vw;
+    display: flex;
+    gap: 0.75rem;
 }
 
 .language-change {
     background: transparent;
     color: white;
-    font-size: 1.6vh;
-    font-weight: 500;
+    font-size: 1.5vh;
+    font-weight: 540;
     /* font-weight: bold; */
-    letter-spacing: 0.05rem;
+    /* letter-spacing: 0.05rem; */
     font-style: normal;
-    padding: 0.4rem 1.1rem;
-    border-radius: 8%;
-    border: 0. solid white;
+    font-weight: 600;
+    padding: 0.4rem 1rem;
+    border-radius: 4px;
+    border: 0.1 solid white;
 }
 
 .language-change:focus-within {
@@ -64,34 +74,38 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 0.5vw;
-    padding: 0.4rem 1rem;
+    padding: 0.5rem 0.8rem;
     color: white;
-    border-radius: 8%;
-    font-size: 1.5vh;
+    border-radius: 4px;
+    font-size: 1.4vh;
     font-family: sans-serif;
     background: red;
-    font-weight: 600;
+    font-weight: 650;
     text-decoration: none;
 }
 
 .heading {
+    /* position: relative; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 1.9rem;
-    margin-top: 25vh;
+    margin-top: 26.6vh;
     color: white;
 }
 
 .heading-top {
+    font-size: 1.9rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: "Poppins", sans-serif;
     font-style: normal;
+}
+
+.second-line{
+    margin-top: -3%;
 }
 
 .subheading {
@@ -100,16 +114,16 @@ body {
     justify-content: center;
     align-items: center;
     font-family: "Poppins", sans-serif;
-    font-weight: 200;
     font-style: normal;
 }
 
 .subheading .first-subheading-line {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     margin-top: 1vh;
 }
 
 .subheading .second-subheading-line {
     margin-top: 3vh;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
+
