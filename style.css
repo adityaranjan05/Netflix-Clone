@@ -213,7 +213,7 @@ body {
 
 .movie-cards{
     position: relative;
-    transition: all 0.3s;
+    transition: all 0.3s;   
 }
 
 .movie-cards:hover{
