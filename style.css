@@ -264,6 +264,7 @@ body {
 
 .content{
     font-size: 1rem;
+    font-weight: 600;
     margin-top: 2vh;
     color: gray;
 }
