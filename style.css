@@ -164,7 +164,9 @@ body {
     position: relative;
     background: black;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     border-top: 5px solid red;
     border-top-left-radius: 50% 10%;
     border-top-right-radius: 50% 10%;
@@ -172,7 +174,7 @@ body {
 }
 
 #movies-trending-now{
-    max-width: 60vw;
+    width: 63vw;
 }
 
 
@@ -181,9 +183,8 @@ body {
     padding-bottom: 3vh;
     color: white;
     font-weight: 800;
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: left;
-    margin-left: -2vw;
 }
 
 .movie-cards-wrapper{
@@ -192,7 +193,7 @@ body {
     align-items: center;
     overflow: hidden;
     gap: 3vw;
-    padding: 1rem;
+    height: 35vh;
 }
 
 .movie{
@@ -221,3 +222,48 @@ body {
     transform: scale(1.06);
 }
 
+.reasons-to-join{
+    width: 63vw;
+}
+
+.title-reasons{
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+    color: white;
+    font-weight: 800;
+    font-size: 2rem;
+    text-align: left;
+}
+
+.reasons-wrapper{
+    display: flex;
+    flex-direction: row;
+    max-width: 63vw;
+    gap: 1vw;
+    margin-bottom: 5vh;
+}
+
+.reasons{
+    width: 15vw;
+    height: 35vh;
+    border-radius: 0.5rem;
+    background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+}
+
+.content-wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.reasons-heading{
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.content{
+    font-size: 1rem;
+    margin-top: 2vh;
+    color: gray;
+}
