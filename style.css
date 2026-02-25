@@ -168,13 +168,13 @@ body {
     justify-content: center;
     align-items: center;
     border-top: 5px solid red;
-    border-top-left-radius: 50% 10%;
-    border-top-right-radius: 50% 10%;
+    border-top-left-radius: 100% 10%;
+    border-top-right-radius: 100% 10%;
     margin-top: -5vh;
 }
 
 #movies-trending-now{
-    width: 63vw;
+    width: 60vw;
 }
 
 
@@ -223,7 +223,7 @@ body {
 }
 
 .reasons-to-join{
-    width: 63vw;
+    width: 60vw;
 }
 
 .title-reasons{
@@ -267,4 +267,60 @@ body {
     font-weight: 600;
     margin-top: 2vh;
     color: gray;
+}
+
+#hero-bottom{
+    position: relative;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.questions-wrapper{
+    width: 60vw;
+}
+
+.questions-title{
+    padding-bottom: 1.5vh;
+    color: white;
+    font-weight: 800;
+    font-size: 2rem;
+    text-align: left;
+    margin-bottom: 1vh;
+}
+
+.questions{
+    width: 60vw;
+    height: 9vh;
+    background: #333333;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0.8vh;
+    justify-content: space-between;
+}
+
+.questions:hover{
+    background: rgb(63, 62, 62);
+}
+
+
+.question-content{
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.symbol{
+    padding: 1.5rem;
+    font-size: 3.5rem;
+    font-weight: 200;
+    color: white;
+}
+
+.question-answer{
+    color: white;
 }
