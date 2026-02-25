@@ -319,6 +319,8 @@ body {
     font-size: 3.5rem;
     font-weight: 200;
     color: white;
+    display: inline-block;
+    transition: transform 0.08s ease-in-out;
 }
 
 .question-answer{
