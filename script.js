@@ -8,12 +8,13 @@ questions.forEach((btn) => {
         } else {
             symbol.style.transform = "rotate(45deg)";
         }
-        answer.classList.toggle("active");
-        if (answer.classList.contains("active")) {
-            answer.style.display = "block";
-        } else {
-            answer.style.display = "none";
-        }
+        // answer.classList.toggle("active");
+        // if (answer.classList.contains("active")) {
+        //     answer.style.display = "block";
+        // } else {
+        //     answer.style.display = "none";
+        // }
     });
 });
+
 
